@@ -1,0 +1,65 @@
+List:-
+eg
+
+list = []
+
+https://www.w3schools.com/python/python_lists.asp#:~:text=Lists%20are%20used%20to%20store,with%20different%20qualities%20and%20usage.
+
+List methods in python:-
+
+https://www.w3schools.com/python/python_ref_list.asp
+
+append()- here we put the element(one) in the argument (paranthesis), adds element to the end of the list.
+index() - here we put the element(one) in the argument, 
+insert() - it takes two arguments (index, element), puts the element at the given index.
+pop() - here we give index as the argument, it returns the element in that index
+remove() - here we put the element that is needed to be removed.
+-------
+Tuple:-
+
+tuple = ()
+
+https://www.w3schools.com/python/python_tuples.asp
+
+tuple are ordered and unchangeable and allow duplicate values
+ordered means item will remain as it is as they were intially put unlike sets
+
+therefore you only access tuple element using index
+eg:- tuple = ("apple", "banana")
+     tuple[1]  
+     # output
+     #"banana" 
+------
+
+Set:-
+
+set = {}
+
+https://www.w3schools.com/python/python_sets.asp
+
+it is unordered, unchangeble, unindexed 
+and does not allow duplicate value
+
+
+------
+
+Dictionary:-
+
+dic = {"key" :"value"}
+key can be a integer, string or set
+list and set can't be the key.
+
+insert the element in dictionary.
+dic["key2"] = "value2"
+
+---------
+
+Fuction
+
+def func_name(argument1, argument2,...):
+	#some operation
+
+e.g. 
+def sum(a,b):
+	print(a+b)
+	#output sum of the two numbers
